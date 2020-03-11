@@ -6,3 +6,6 @@ node default {
     owner   => 'root',
   }
 }
+node 'centos-7.atlantis.local' {
+  include role::master_server
+}

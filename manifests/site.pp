@@ -14,7 +14,7 @@ node 'centos-7.atlantis.local' {
   }
 }
 
-node 'minetest.puppet.vm{
+node 'minetest.puppet.vm' {
    include role::minecraft_server
 } 
 node /^web/{

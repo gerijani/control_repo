@@ -12,7 +12,7 @@ node 'centos-7.atlantis.local' {
 
 node /^web/{
    include role::app_server
-}Kapuczinerrel 
+} 
 node /^db/{
    include role::app_server
 }

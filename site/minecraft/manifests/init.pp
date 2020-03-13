@@ -9,9 +9,9 @@ class minecraft {
 	package {'java':
 		ensure => present,
 	}
-	file {'/opt/minecraft/elua.txt':
+	file {'/opt/minecraft/eula.txt':
 		ensure => file,
-		content => 'elua=true'
+		content => 'eula=true'
 	}
 	file {'/etc/systemd/system/minecraft.service':
 		ensure => file,
